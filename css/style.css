@@ -1,0 +1,66 @@
+.header {
+background: white;
+height: 192px;
+width: auto;
+
+
+}
+
+
+.ul1 li {
+    display: inline-block;
+    margin: auto;
+    width: 12%;
+    text-align: center;
+    line-height: 70px;
+    
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+li {
+    
+    font-size: 30px;
+    padding: 78px;
+    margin: 40px;
+}
+
+.articles {
+    padding: 120px;
+    background: white
+    width: 100%;
+    height: auto;
+}
+
+.article {
+    width: 420px;
+    height: auto;
+    margin: 60px;
+    display: inline-block;
+}
+
+.article_img {
+    width: 100%;
+}
+
+.article_hash {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.article_title {
+    font-size: 12px;
+}
+
+.article_discription {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 70px;
+}
