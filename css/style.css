@@ -1,46 +1,69 @@
-.header {
-background: white;
-height: 192px;
-width: auto;
+body {
+    margin: 0;
+    padding: 0;
+}
 
-
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid gold;
 }
 
 
+.header {
+    text-align: center;
+    background: white;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    margin: 0 78px 0 78px;
+}
+
 .ul1 li {
     display: inline-block;
-    margin: auto;
-    width: 12%;
+    margin: 60px;
     text-align: center;
-    line-height: 70px;
-    
+    line-height: 10px;
+    border: 1px solid red;
+    font-size: 10px;
+}
+
+header a:hover {
+    color: green;
+}
+
+.articles {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+
+}
+
+.ul2 li {
+    width: 420px;
+    height: auto;
+    display: inline-block;
+    border: 1px solid green;
 }
 
 h2 {
     font-size: 25px;
+    border: 1px solid blue;
 }
 
-
-li {
-    
-    font-size: 30px;
-    padding: 78px;
-    margin: 40px;
+.article_title {
+    font-size: 25px;
 }
 
-.articles {
-    padding: 120px;
-    background: white
-    width: 100%;
-    height: auto;
-}
 
 .article {
     width: 420px;
     height: auto;
-    margin: 60px;
+    padding: 0px;
+    margin: 0 auto;
     display: inline-block;
-}
+    }
+    
 
 .article_img {
     width: 100%;
@@ -61,6 +84,7 @@ li {
 }
 
 .button {
+    width: 164px;
+    height: 60px;
     text-align: center;
-    margin-bottom: 70px;
 }
